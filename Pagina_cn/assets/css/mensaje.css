@@ -1,0 +1,39 @@
+.mensaje{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    
+}
+.mensaje__lista{
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+.mensaje__item{
+    max-width: 300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5rem 0 2rem 5rem;
+    background-position: top 1rem left 1rem;
+}
+.mensaje__logo{
+    background-image: url('../img/prod1.jpg');
+    height: 50px;
+    width: 80px;
+}
+.mensaje__item__titulo{
+    flex-wrap: wrap;
+    color: cadetblue;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.mensaje__item__texto{
+    line-height: normal;
+    font-family: 'Montserrat',sans-serif;
+}

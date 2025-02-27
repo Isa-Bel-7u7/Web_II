@@ -1,0 +1,35 @@
+.head{
+    color: #aaf2e4;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 5px solid #fd65a0;
+    padding-top: .5rem;
+    padding-bottom: .15rem;
+    background-color:#31d5de;
+    justify-content: space-between;
+
+}
+.head__logo{
+    justify-content: space-around;
+    height: 75px;
+    margin-bottom: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+
+.head_nav{
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+.head__link{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
